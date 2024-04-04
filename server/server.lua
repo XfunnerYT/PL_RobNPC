@@ -1,7 +1,5 @@
 ESX = exports['es_extended']:getSharedObject()
 
-require('config')
-
 RegisterServerEvent('daritemrobado')
 AddEventHandler('daritemrobado', function()
     local _source = source
